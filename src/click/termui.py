@@ -291,7 +291,7 @@ def confirm(
     default: bool | None = False,
     abort: bool = False,
     prompt_suffix: str = ": ",
-    show_default: bool = True,
+    show_default: bool = False,
     err: bool = False,
 ) -> bool:
     """Prompts for confirmation (yes/no question).
